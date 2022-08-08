@@ -1,6 +1,6 @@
 # Component Based UI
 
-
+* ### this is the link for netlify [netlify link](https://amazing-raindrop-71f627.netlify.app/)
 
 * I prepared UML diagram for the starter code as shown below : 
 
@@ -32,7 +32,7 @@ The <Results/> component should show mock API results.
 * I kept the app.js as class component as they required in the lap 
 
 * this is the result from local host
- 
+
 ![link](./image/Screenshot%20(449).png)
 
 
