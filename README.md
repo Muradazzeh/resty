@@ -1,7 +1,7 @@
 # Component Based UI
 
 * ### this is the link for netlify [netlify link]https://amazing-raindrop-71f627.netlify.app/)
-* ### this is the link for sandbox [sandbox](https://wyhxx5.csb.app/)
+* ### this is the link for sandbox [sandbox](https://codesandbox.io/s/wyhxx5)
 
 * I prepared UML diagram for the starter code as shown below : 
 
