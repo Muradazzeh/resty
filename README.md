@@ -1,6 +1,7 @@
 # Component Based UI
 
-* ### this is the link for netlify [netlify link](https://amazing-raindrop-71f627.netlify.app/)
+* ### this is the link for netlify [netlify link]https://amazing-raindrop-71f627.netlify.app/)
+* ### this is the link for sandbox [sandbox](https://wyhxx5.csb.app/)
 
 * I prepared UML diagram for the starter code as shown below : 
 
@@ -39,6 +40,13 @@ The <Results/> component should show mock API results.
 
 
 ![LINK](./image/Screenshot%20(457).png)
+
+* GitHup action 
+
+![link](./image/Screenshot%20(460).png)
+
+![link](./image/Screenshot%20(461).png)
+
 
 
 
