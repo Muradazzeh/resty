@@ -1,5 +1,5 @@
 import React from 'react';
-
+import axios from "axios";
 import './app.scss';
 
 // Let's talk about using index.js and some other name in the component folder
@@ -15,22 +15,20 @@ function App (props) {
     const [data,setData]=useState(null)
     const [requestParams, setRequestParams] = useState({})
 
-  const callApi = (requestParams) => {
+  const callApi = async (requestParams) => {
     // if (requestParams.method === 'get') {
     // mock output
-    const data = {
-      header : [
-        {"content-Type": 'application/json'},
-  
-       
-      ],
-      count: 2,
-      results: [
-        {name: 'fake thing 1', url: 'http://fakethings.com/1'},
-        {name: 'fake thing 2', url: 'http://fakethings.com/2'},
-      ],
-    };
-   setData(data)
+     await axios.get(requestParams.url).then( (response )=>{
+      console.log("**********",response)
+      const data = {
+        headers: [response.headers], results: [response.data],
+      };
+      setData(data)
+    });
+    
+    
+
+   
    setRequestParams(requestParams)
     // this.setState({data, requestParams});
   }

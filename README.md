@@ -36,10 +36,13 @@ The <Results/> component should show mock API results.
 
 ![link](./image/Screenshot%20(449).png)
 
-* this is the result for lap 27 
+* this is the result for lap 27 update 
+* I add axios to fetch data from real api and get result from it as shown 
+* and I add conditional rendering for post and put so the test area will appear 
+
+![link](./image/Screenshot%20(467).png)
 
 
-![LINK](./image/Screenshot%20(457).png)
 
 * GitHup action 
 
