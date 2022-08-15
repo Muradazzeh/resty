@@ -7,12 +7,13 @@ function Form (props) {
 const [method,setMethod]=useState('GET')
 const [url,setUrl]=useState('https://pokeapi.co/api/v2/pokemon')
 let [TextArea,setTextArea] = useState(false);
-const [request, setrequest] = useState('');
+const [request, setRequest] = useState('');
   function handleSubmit (e) {
     e.preventDefault();
     const formData = {
       method:method,
       url: url,
+      request:request
     };
     props.handleApiCall(formData);
   }
@@ -30,7 +31,7 @@ function handleTextArea(e){
   setMethod(e.target.id);  
 }
 const requestSetState = (e) => {
-  setrequest(e.target.value);
+  setRequest(e.target.value);
 }
     return (
       <>
