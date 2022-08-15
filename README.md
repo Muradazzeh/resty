@@ -1,6 +1,6 @@
 # Component Based UI
-
-* ### this is the link for netlify [netlify link]https://amazing-raindrop-71f627.netlify.app/)
+* ### this is the link for github pages [link github pages](https://muradazzeh.github.io/resty/)
+* ### this is the link for netlify [netlify link](https://amazing-raindrop-71f627.netlify.app/)
 * ### this is the link for sandbox [sandbox](https://codesandbox.io/s/wyhxx5)
 
 * I prepared UML diagram for the starter code as shown below : 
