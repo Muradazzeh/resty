@@ -39,10 +39,10 @@ const requestSetState = (e) => {
           <label >
             <span>URL: </span>
             <input name='url'data-testid='button' onChange={urlFunction}  type='text' />
-            <Button variant="success" type="submit">GO!</Button>{' '}
+            <button variant="success" type="submit">GO!</button>{' '}
           </label>
           <label className="methods">
-            <Badge bg="primary" id="get" onClick={methodFunction}>GET</Badge>
+            <span bg="primary" id="get" onClick={methodFunction}>GET</span>
             <span id="post"onClick={handleTextArea}>POST</span>
             <span id="put"onClick={handleTextArea}>PUT</span>
             <span id="delete"onClick={methodFunction}>DELETE</span>

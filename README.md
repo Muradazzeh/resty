@@ -2,7 +2,14 @@
 * ### this is the link for github pages [link github pages](https://muradazzeh.github.io/resty/)
 * ### this is the link for netlify [netlify link](https://amazing-raindrop-71f627.netlify.app/)
 * ### this is the link for sandbox [sandbox](https://codesandbox.io/s/wyhxx5)
+## lap 29 update 
 
+* we used reducer hook to put the history for the api calls 
+* I added extra feature that will show the history on button click 
+
+![link](./image/Screenshot%20(483).png)
+![link](./image/Screenshot%20(484).png)
+![link](./image/Screenshot%20(485).png)
 * I prepared UML diagram for the starter code as shown below : 
 
 ![link](./image/uml%20class%20digram.png)
